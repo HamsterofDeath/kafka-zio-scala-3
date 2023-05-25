@@ -12,5 +12,7 @@ libraryDependencies ++= Seq(
   "dev.zio" %% "zio" % "2.0.10",
   "dev.zio" %% "zio-streams" % "2.0.10",
   "dev.zio" %% "zio-kafka" % "2.1.3",
-  "org.apache.kafka" % "kafka-clients" % "3.4.0"
+  "org.apache.kafka" % "kafka-clients" % "3.4.0",
+  "dev.zio" %% "zio-json" % "0.5.0"
+
 )
